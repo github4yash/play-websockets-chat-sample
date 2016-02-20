@@ -2,6 +2,8 @@
 
 This is a version of the [Play](http://www.playframework.com/) websockets [chat sample](https://github.com/playframework/playframework/tree/master/samples/java/websocket-chat) that uses redis pub/sub to allow for a single chatroom that works across multiple nodes.
 
+For more info see: https://devcenter.heroku.com/articles/play-java-websockets-advanced
+
 # Running
 
 The application requires a Redis connection. This is configured in applicaiton.conf:
